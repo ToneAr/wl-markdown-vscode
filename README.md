@@ -1,3 +1,3 @@
-# personal-project-WL-MARKDOWN
+# WL Markdown
 
 Markdown highlighting for WL
