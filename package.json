@@ -2,7 +2,7 @@
   "name": "wl-markdown",
   "displayName": "Wolfram Language Markdown",
   "description": "Wolfram Language syntax highlighting in markdown fenced code blocks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Tone",
   "license": "MIT",
   "engines": {
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tonya/wl-markdown"
+    "url": "https://github.com/ToneAr/wl-markdown-vscode"
   },
   "extensionDependencies": [
     "wolframresearch.wolfram"
