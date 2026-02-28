@@ -1,0 +1,35 @@
+{
+  "name": "wl-markdown",
+  "displayName": "Wolfram Language Markdown",
+  "description": "Wolfram Language syntax highlighting in markdown fenced code blocks",
+  "version": "1.0.0",
+  "publisher": "tonya",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonya/wl-markdown"
+  },
+  "extensionDependencies": [
+    "wolframresearch.wolfram"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/wolfram-markdown.tmLanguage.json",
+        "scopeName": "markdown.wolfram.codeblock",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.wolfram": "wolfram"
+        }
+      }
+    ]
+  }
+}
